@@ -94,7 +94,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\CatController.cs" />
     <Compile Include="Controllers\TestController.cs" />
-    <Compile Include="DBConatext\AppDbContext.cs" />
+    <Compile Include="DBContext\AppDbContext.cs" />
     <Compile Include="Entities\Account.cs" />
     <Compile Include="Entities\EntityBase.cs" />
     <Compile Include="Entities\Game.cs" />
