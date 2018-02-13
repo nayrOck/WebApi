@@ -14,7 +14,7 @@ namespace WebApi.DBConatext
 
         public DbSet<Account> Accounts { get; set; }
 
-        public DbSet<Player> Players { get; set; }
+        public DbSet<Players> Players { get; set; }
 
         public DbSet<Game> Games { get; set; }
 

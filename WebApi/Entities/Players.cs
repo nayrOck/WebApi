@@ -5,10 +5,8 @@ using System.Web;
 
 namespace WebApi.Entities
 {
-    public class Player
+    public class Players: EntityBase
     {
-        public int ID { get; set; }
-
         public string FirstName { get; set; }
 
         public string LastName { get; set; }

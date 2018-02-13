@@ -9,6 +9,6 @@ namespace WebApi.Entities
     {
         public string Name{ get; set; }
 
-        public virtual ICollection<Player> Players { get; set; }
+        public virtual ICollection<Players> Players { get; set; }
     }
 }

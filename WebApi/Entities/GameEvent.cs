@@ -9,7 +9,7 @@ namespace WebApi.Entities
     {
         public virtual Game Game { get; set; }
 
-        public virtual Player Player { get; set; }
+        public virtual Players Player { get; set; }
 
         public int PointValue { get; set; }
     }

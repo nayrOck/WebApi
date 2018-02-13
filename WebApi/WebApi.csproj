@@ -99,7 +99,7 @@
     <Compile Include="Entities\EntityBase.cs" />
     <Compile Include="Entities\Game.cs" />
     <Compile Include="Entities\GameEvent.cs" />
-    <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\Players.cs" />
     <Compile Include="Entities\ReportingBase.cs" />
     <Compile Include="Entities\Team.cs" />
     <Compile Include="Entities\Test.cs" />
@@ -118,6 +118,10 @@
     <Compile Include="Migrations\201802090631391_Add_Player_Game_Team_GameEvent.cs" />
     <Compile Include="Migrations\201802090631391_Add_Player_Game_Team_GameEvent.Designer.cs">
       <DependentUpon>201802090631391_Add_Player_Game_Team_GameEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802120230010_Modify_Players_EntityBase_ReportingBase.cs" />
+    <Compile Include="Migrations\201802120230010_Modify_Players_EntityBase_ReportingBase.Designer.cs">
+      <DependentUpon>201802120230010_Modify_Players_EntityBase_ReportingBase.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -145,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802090631391_Add_Player_Game_Team_GameEvent.resx">
       <DependentUpon>201802090631391_Add_Player_Game_Team_GameEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802120230010_Modify_Players_EntityBase_ReportingBase.resx">
+      <DependentUpon>201802120230010_Modify_Players_EntityBase_ReportingBase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

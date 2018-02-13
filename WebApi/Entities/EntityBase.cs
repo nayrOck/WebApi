@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WebApi.Entities
 {
-    public abstract class EntityBase
+    public abstract class EntityBase: ReportingBase
     {
         public int ID { get; set; }
     }
